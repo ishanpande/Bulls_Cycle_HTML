@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial;
+  }
+  h1 {
+    float: left;
+    color: #f2f2f2;
+    display: block;
+    margin-right: 16%;
+    margin-left: 6%;
+    font-size: 2rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+      "Lucida Sans", Arial, sans-serif;
+    border-bottom: 2px solid rgba(146, 141, 141, 0.479);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  img {
+    max-width: 25%;
+    float: left;
+    position: relative;
+    height: 5rem;
+    margin-left: 2%;
+    border: 1px solid grey;
+    margin-top: 1%;
+  }
+  
+  .Navbar {
+    overflow: hidden;
+    background-color: #006747;
+    align-self: auto;
+  }
+  
+  .Navbar a {
+    float: left;
+    color: #f2f2f2;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 1%;
+  }
+  
+  .Navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.295);
+    color: black;
+    transition: 0.3s linear;
+  }
+  
+  .Navbar a.active {
+    background-color: #50af7b;
+    color: white;
+  }
+  #linkone {
+    margin-left: 5%;
+  }
+  .about {
+    border: 20px solid rgba(146, 141, 141, 0.479);
+    width: 60%;
+    padding: 2%;
+    margin: 20px auto;
+    font-family: source sans pro;
+  }
+  
+  .para {
+    border-left: 5px solid rgba(146, 141, 141, 0.479);
+    padding: 5px;
+    text-align: left;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  h2 {
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  .aboutimage {
+    margin: 0 2%;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    max-width: 25%;
+    position: relative;
+  }
+  .about_ref {
+    float: right;
+    color: #50af7b;
+  }
+  
